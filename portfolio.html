@@ -1,15 +1,17 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="icon" href="assets/icons8-github-24.ico">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>portfolio</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="media.css">
+   <link rel="stylesheet" href="keyframes.css">
+   <link rel="icon" href="assets/icons8-github-24.ico">
 </head>
 <body>
     <!--svg-->
@@ -30,7 +32,7 @@
         </symbol>
         <symbol id="video" viewBox="0 0 60 50">
            <g>
-            <path d="M59.843 1.30696V48.781C59.465 49.535 58.698 50.043 57.812 50.043C57.748 50.043 57.685 50.04 57.622 50.035L57.63 50.036H2.194C2.128 50.044 2.051 50.048 1.973 50.048C0.876 50.048 -0.0130005 49.159 -0.0130005 48.062C-0.0130005 47.984 -0.00900049 47.907 -4.88944e-07 47.831L-0.00100049 47.84C-0.00100049 32.6133 -0.00100049 17.387 -0.00100049 2.16096C-0.00600049 2.10596 -0.0100005 2.04196 -0.0100005 1.97696C-0.0100005 0.879962 0.878999 -0.00903808 1.976 -0.00903808C2.047 -0.00903808 2.116 -0.00503808 2.185 0.00196192L2.176 0.000961917C20.666 0.000961917 39.1447 0.000961917 57.612 0.000961917C57.687 -0.00803808 57.774 -0.0140381 57.863 -0.0140381C58.75 -0.0140381 59.511 0.524962 59.837 1.29296L59.842 1.30696H59.843ZM22.544 24.983V30.575C22.545 30.941 22.596 31.295 22.69 31.631L22.683 31.603C23.038 32.503 23.901 33.128 24.909 33.128C25.419 33.128 25.892 32.968 26.28 32.695L26.272 32.7C29.6 30.784 32.892 28.85 36.185 26.899C36.865 26.531 37.318 25.823 37.318 25.009C37.318 24.195 36.864 23.487 36.196 23.124L36.185 23.118C32.892 21.097 29.513 19.163 26.133 17.212C25.78 16.992 25.351 16.861 24.892 16.861C23.583 16.861 22.523 17.922 22.523 19.23C22.523 19.28 22.525 19.33 22.528 19.379V19.372C22.65 21.236 22.545 23.118 22.545 24.982L22.544 24.983ZM9.443 6.55096V3.57196H3.572V6.55096H9.443ZM3.484 46.376H9.442V43.449H3.484V46.376ZM18.833 3.57096H13.066V6.53296H18.833V3.57096ZM22.456 3.57096V6.53296H28.24V3.48396L22.456 3.57096ZM37.613 6.55096V3.57196H31.846V6.53396L37.613 6.55096ZM47.038 3.57096H41.219V6.53296H47.038V3.57096ZM37.631 46.394V43.554H31.847V46.481L37.631 46.394ZM18.815 46.394V43.554H13.048V46.481L18.815 46.394ZM28.24 46.394V43.554H22.473V46.498L28.24 46.394ZM47.038 43.449H41.219V46.376H47.038V43.449ZM56.289 6.55096V3.48496H50.627V6.55096H56.289ZM56.289 43.449H50.627V46.393H56.306L56.289 43.449Z" />
+                <path d="M59.843 1.30696V48.781C59.465 49.535 58.698 50.043 57.812 50.043C57.748 50.043 57.685 50.04 57.622 50.035L57.63 50.036H2.194C2.128 50.044 2.051 50.048 1.973 50.048C0.876 50.048 -0.0130005 49.159 -0.0130005 48.062C-0.0130005 47.984 -0.00900049 47.907 -4.88944e-07 47.831L-0.00100049 47.84C-0.00100049 32.6133 -0.00100049 17.387 -0.00100049 2.16096C-0.00600049 2.10596 -0.0100005 2.04196 -0.0100005 1.97696C-0.0100005 0.879962 0.878999 -0.00903808 1.976 -0.00903808C2.047 -0.00903808 2.116 -0.00503808 2.185 0.00196192L2.176 0.000961917C20.666 0.000961917 39.1447 0.000961917 57.612 0.000961917C57.687 -0.00803808 57.774 -0.0140381 57.863 -0.0140381C58.75 -0.0140381 59.511 0.524962 59.837 1.29296L59.842 1.30696H59.843ZM22.544 24.983V30.575C22.545 30.941 22.596 31.295 22.69 31.631L22.683 31.603C23.038 32.503 23.901 33.128 24.909 33.128C25.419 33.128 25.892 32.968 26.28 32.695L26.272 32.7C29.6 30.784 32.892 28.85 36.185 26.899C36.865 26.531 37.318 25.823 37.318 25.009C37.318 24.195 36.864 23.487 36.196 23.124L36.185 23.118C32.892 21.097 29.513 19.163 26.133 17.212C25.78 16.992 25.351 16.861 24.892 16.861C23.583 16.861 22.523 17.922 22.523 19.23C22.523 19.28 22.525 19.33 22.528 19.379V19.372C22.65 21.236 22.545 23.118 22.545 24.982L22.544 24.983ZM9.443 6.55096V3.57196H3.572V6.55096H9.443ZM3.484 46.376H9.442V43.449H3.484V46.376ZM18.833 3.57096H13.066V6.53296H18.833V3.57096ZM22.456 3.57096V6.53296H28.24V3.48396L22.456 3.57096ZM37.613 6.55096V3.57196H31.846V6.53396L37.613 6.55096ZM47.038 3.57096H41.219V6.53296H47.038V3.57096ZM37.631 46.394V43.554H31.847V46.481L37.631 46.394ZM18.815 46.394V43.554H13.048V46.481L18.815 46.394ZM28.24 46.394V43.554H22.473V46.498L28.24 46.394ZM47.038 43.449H41.219V46.376H47.038V43.449ZM56.289 6.55096V3.48496H50.627V6.55096H56.289ZM56.289 43.449H50.627V46.393H56.306L56.289 43.449Z" />
            </g>
         </symbol>
         <symbol id="image" viewBox="0 0 66 50">
@@ -39,7 +41,6 @@
                 <path d="M26.962 9.34597C29.987 9.34597 32.438 11.798 32.438 14.822C32.484 15.09 32.511 15.399 32.511 15.713C32.511 18.738 30.059 21.189 27.035 21.189C24.011 21.189 21.559 18.737 21.559 15.713C21.559 15.398 21.586 15.09 21.637 14.789L21.632 14.821C21.632 14.82 21.632 14.82 21.632 14.819C21.632 11.846 24.001 9.42597 26.955 9.34497H26.963L26.962 9.34597Z"/>
             </g>
         </symbol>
-
         <symbol id="mic" viewBox="0 0 32 50">
             <g>
                 <path d="M4.371 50V47.102H14.587V40.93C6.391 40.113 0.038 33.272 0 24.938V24.934H2.881C2.895 29.331 5.074 33.216 8.407 35.581L8.448 35.608C10.52 37.153 13.131 38.082 15.959 38.082C16.196 38.082 16.432 38.075 16.667 38.063L16.634 38.064C23.627 37.725 29.177 32.004 29.24 24.973V24.967H32.138C32.138 25 32.138 25.039 32.138 25.078C32.138 29.228 30.531 33.003 27.905 35.815L27.913 35.806C25.306 38.656 21.696 40.55 17.645 40.926L17.582 40.931V47.021H27.831V49.968L4.371 50Z" />
@@ -66,247 +67,147 @@
                 <path d="M16 2.66699C8.65699 2.69399 2.71399 8.65299 2.71399 16C2.71399 21.599 6.16599 26.393 11.057 28.368L11.146 28.4C11.013 27.347 10.919 25.733 11.186 24.573L12.746 17.946C12.746 17.946 12.346 17.146 12.346 15.973C12.346 14.12 13.426 12.746 14.773 12.746C15.906 12.746 16.466 13.599 16.466 14.613C16.466 15.76 15.733 17.466 15.346 19.053C15.026 20.386 16.013 21.466 17.333 21.466C19.706 21.466 21.52 18.973 21.52 15.373C21.52 12.173 19.227 9.95999 15.947 9.95999C15.871 9.95599 15.783 9.95399 15.694 9.95399C12.505 9.95399 9.92099 12.539 9.92099 15.727C9.92099 15.729 9.92099 15.731 9.92099 15.733C9.92099 16.88 10.361 18.106 10.908 18.773C11.015 18.906 11.028 19.026 10.988 19.16L10.615 20.667C10.562 20.907 10.415 20.974 10.175 20.854C8.49499 20.067 7.45499 17.654 7.45499 15.681C7.45499 11.481 10.522 7.62799 16.282 7.62799C20.895 7.62799 24.509 10.908 24.509 15.321C24.509 19.921 21.602 23.614 17.576 23.614C16.243 23.614 14.963 22.907 14.536 22.081L13.696 25.241C13.265 26.578 12.704 27.739 12.008 28.804L12.042 28.748C13.212 29.12 14.558 29.335 15.953 29.335C23.317 29.335 29.286 23.365 29.286 16.002C29.286 8.65499 23.344 2.69599 16.004 2.66899H16.001L16 2.66699Z" />
             </g>
         </symbol>
-
     </svg>
-
-    <!--end svg-->
-    <!-- начало верстки Header-->
-<header class="container">
-   <div class="header-container">
-    <div class="header-logo">
-        <a href="#">
-            <svg class="logo">
-                <use xlink:href="#logo"></use>
-            </svg>
-        </a>
-    </div>
-    <nav class="nav">
-        <div class="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
-              <li class="nav-item"><a href="#Video" class="nav-link">Video</a></li>
-              <li class="nav-item"><a href="#Price" class="nav-link">Price</a></li>
-              <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
-            
-            </ul>
+<!--end svg-->
+<!-- начало верстки Header-->
+    <header class="container">
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="#" title ="empty link">
+                    <svg class="logo">
+                        <use xlink:href="#logo"></use>
+                    </svg>
+                </a>
+            </div>
+            <nav class="nav">
+                <div class="hamburger">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="portfolio_skills.html" title="portfolio_skills.html" target="_blank" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#Portfolio" title="to portfolio" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="portfolio_video_price.html" title = "to portfolio_video_price.html" target="_blank" class="nav-link">Video</a></li>
+                        <li class="nav-item"><a href="portfolio_video_price.html" title="to portfolio_video_price.html" target="_blank"class="nav-link">Price</a></li>
+                        <li class="nav-item"><a href="#Contacts" title="to contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </div>  
+            </nav>
         </div>
-        
-      </nav>
-   </div>
-</header>
-<!-- конец верстки Header-->
-<!-- начало верстки Main-->
-<main class="container">
-<div class="main-container">
-   <section class="hero-section">
-     <h1 class="hero-section-item">Alexa Rise</h1>
-     <div class="hero-section-item2">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</div>
-          <form class="search_form">
-             <button type="submit" class="search_form_submit">Hire me</button>
-          </form>
-   </section>
-</div>
-<!-- конец верстки Main-->
-<!-- начало верстки Skills-->
-<section class="section_skills" id="Skills">
-   <div class="section_skills2">
-        <h2 class="section_skills_title">Skills</h2>
-   </div>
-   <div class="section_skills_navigation">
-      <div class="section_skills_navigation1">
-         <span>
-            <svg class="fotokamera">
-                <use xlink:href="#fotokamera"></use>
-            </svg>
-         </span>
-         <div class="section_skills_navigation1_item1">Digital photography</div>
-         <div class="section_skills_navigation1_item2">High-quality photos in the studio and on the nature</div>
-       </div>
-      <div class="section_skills_navigation2">
-        <span>
-            <svg class="video">
-                 <use xlink:href="#video"></use>
-             </svg>
-        </span>
-        <div class="section_skills_navigation2_item1">Video shooting</div>
-        <div class="section_skills_navigation2_item2">
-            Capture your moments so that they always stay with you</div>
-      </div>
-      <div class="section_skills_navigation3">
-        <span>
-            <svg class="image">
-               <use xlink:href="#image"></use>
-            </svg>
-        </span>
-        <div class="section_skills_navigation3_item1">Retouch</div>
-        <div class="section_skills_navigation3_item2">
-            I strive to make photography surpass reality</div>  
-      </div>
-      <div class="section_skills_navigation4">
-        <span>
-            <svg class="mic">
-            <use xlink:href="#mic"></use>
-            </svg>
-        </span>
-        <div class="section_skills_navigation4_item1">Audio</div>
-        <div class="section_skills_navigation4_item2">
-            Professional sounds recording for video, advertising, portfolio</div>
-      </div>
-   </div>
-</section>
-<!-- конец верстки Skills-->
-<!-- начало верстки Portfolio-->
-<section class="section_portfolio" id="Portfolio">
-    <div class="section_portfolio_title">
-        <h2 class="section_portfolio_title1">Portfolio</h2>
-    </div>
-    <div class="section_portfolio_title2">
-        <form class="portfolio_search_form">
-            <button type="submit" class="portfolio_search_form_submit1">Winter</button>
-            <button type="submit" class="portfolio_search_form_submit2">Spring</button>
-            <button type="submit" class="portfolio_search_form_submit3">Summer</button>
-            <button type="submit" class="portfolio_search_form_submit4">Autumn</button>
-        </form>
-    </div>
-    <div class="portfolio_foto">
-        <div class="portfolio_foto_title1">
-            <img src="./assets/img/portfolio1-img.jpg">
+    </header>
+ <!-- конец верстки Header-->
+ <!-- начало верстки Main-->
+    <main class="container">
+        <div class="main-container" title="foto ALEXA RISE">
+            <section class="hero-section">
+                <h1 class="hero-section-item">Alexa Rise</h1>
+                <div class="hero-section-item2">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</div>
+                <form class="search_form">
+                    <button type="button" title="hire me" class="search_form_submit">Hire me</button>
+                </form>
+            </section>
         </div>
-        <div class="portfolio_foto_title2">
-            <img src="./assets/img/portfolio2-img.jpg">
-        </div>
-        <div class="portfolio_foto_title3">
-            <img src="./assets/img/portfolio3-img.jpg">
-        </div>
-        <div class="portfolio_foto_title4">
-            <img src="./assets/img/portfolio4-img.jpg">
-        </div>
-        <div class="portfolio_foto_title5">
-            <img src="./assets/img/portfolio5-img.jpg">
-        </div>
-        <div class="portfolio_foto_title6">
-            <img src="./assets/img/portfolio6-img.jpg">
-        </div>
-    </div>
-</section>
+ <!-- конец верстки Main-->
+ <!-- начало верстки Portfolio-->
+        <section class="section_portfolio" id="Portfolio">
+            <div class="section_portfolio_title">
+            <h2 class="section_portfolio_title1">Portfolio</h2>
+            </div>
+            <div class="section_portfolio_title2">
+            <form class="portfolio_search_form">
+                <button type="button" class="portfolio_search_form_submit1 button_1">Winter</button>
+                <button type="button" class="portfolio_search_form_submit2 button_1">Spring</button>
+                <button type="button" class="portfolio_search_form_submit3 button_1">Summer</button>
+                <button type="button" class="portfolio_search_form_submit4 button_1">Autumn</button>
+            </form>
+            </div>
+            <div class="portfolio_foto">
+            <div class="portfolio_foto_title1">
+                <img src="assets/img/portfolio1-img.jpg" alt="foto autumn" title ="foto autumn" class="autumn1">
+            </div>
+            <div class="portfolio_foto_title2">
+                <img src="assets/img/portfolio2-img.jpg" alt="foto autumn" title ="foto autumn" class="autumn2">
+            </div>
+            <div class="portfolio_foto_title3">
+                <img src="assets/img/portfolio3-img.jpg" alt="foto autumn" title ="foto autumn" class="autumn3">
+            </div>
+            <div class="portfolio_foto_title4">
+                <img src="assets/img/portfolio4-img.jpg" alt="foto autumn"  title ="foto autumn"class="autumn4">
+            </div>
+            <div class="portfolio_foto_title5">
+                <img src="assets/img/portfolio5-img.jpg" alt="foto autumn" title ="foto autumn" class="autumn5">
+            </div>
+            <div class="portfolio_foto_title6">
+                <img src="assets/img/portfolio6-img.jpg" alt="foto autumn" title ="foto autumn" class="autumn6">
+            </div>
+            </div>
+        </section>
 <!-- конец верстки Portfolio-->
-<!-- начало верстки Video-->
-<section class="section_video" id="Video">
-   <div class="section_video_title">
-    <h2 class="section_video_title1">Video</h2>
-   </div>
-   <div class="section_video_title2">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/IM9STyEQ4II" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-       
-    </div>
-</section>
-<!-- конец верстки Video-->
-<!-- начало верстки Price-->
-<section class="section_price" id="Price">
-    <div class="section_price_title">
-        <h2 class="section_price_title1">Price</h2>
-    </div>
-    <div class="section_price_title2">
-       <div class="section_price_title_flex1">
-           <cpan class="section_price_title_flex1_item1">Standard</cpan>
-           <span class=" section_price_title_flex1_item2">500 $</span>
-           <span class="section_price_title_flex1_item3">
-               One location<br>120 photos in color<br>12 photos in retouch<br>Readiness 2-3 weeks<br>Make up, visage
-           </span>
-           <form class="section_price_flex1_submit">
-            <button type="submit" class="section_price_flex1_submit1">Order shooting</button>
-        </form>
-       </div>
-       <div class="section_price_title_flex2">
-        <span class="section_price_title_flex2_item1">Premium</span>
-        <span class=" section_price_title_flex2_item2">700 $</span>
-        <span class="section_price_title_flex2_item3">
-            One or two locations<br>200 photos in color<br>20 photos in retouch<br>Readiness 1-2 weeks<br>Make up, visage
-        </span>
-        <form class="section_price_flex2_submit">
-         <button type="submit" class="section_price_flex2_submit1">Order shooting</button>
-     </form>
-     </div>
-       <div class="section_price_title_flex3">
-        <span class="section_price_title_flex3_item1">Gold</span>
-        <span class=" section_price_title_flex3_item2">1000 $</span>
-        <span class="section_price_title_flex3_item3">
-            Three locations or more<br>300 photos in color<br>50 photos in retouch<br>Readiness 1 week<br>Make up, visage, hairstyle
-        </span>
-        <form class="section_price_flex3_submit">
-         <button type="submit" class="section_price_flex3_submit1">Order shooting</button>
-       </form>
-       </div>
-    </div>
-</section>
-<!-- конец верстки Price-->
 <!-- начало верстки Contacts-->
-<section class="section_contacts" id="Contacts">
-    <div class="section_contacts_title">
-        <h2 class="section_contacts_title1">Contact me</h2>
-        <form class="section_contacts_form1">
-            <input type="email" placeholder="E-mail" class="section_contacts_form1_item">
-        </form>
-        <form class="section_contacts_form2">
-            <input type="tel" placeholder="Phone" class="section_contacts_form2_item">
-        </form>
-        <form class="section_contacts_form3">
-            <textarea name="mytext" placeholder="Message" class="section_contacts_form3_item"></textarea>
-        </form>
-        <form class="section_button_form">
-            <button type="submit" class="section_button_form_item">Send message</button>
-        </form>
-    </div>
-</section>
-</div>
-</main>
+        <section class="section_contacts" title="foto ALEXA RISE" id="Contacts">
+            <div class="section_contacts_title">
+                <h2 class="section_contacts_title1">Contact me</h2>
+                <form class="section_contacts_form1">
+                    <input type="email" placeholder="E&ndash;mail" class="section_contacts_form1_item">
+                </form>
+                <form class="section_contacts_form2">
+                <input type="tel" placeholder="Phone" class="section_contacts_form2_item">
+                </form>
+                <form class="section_contacts_form3">
+                <textarea name="mytext" placeholder="Message" class="section_contacts_form3_item"></textarea>
+                </form>
+                <form class="section_button_form">
+                <button type="button" class="section_button_form_item">Send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
 <!-- конец верстки Contacts-->
 <!-- начало верстки footer-->
-<footer class="container">
-   <div class="container_footer">
-       <div class="container_footer_title_github">
-           <span class="container_footer_title_github1">&copy; 2022  
-               <a href="https://github.com/sersch1sersch" target="_blank">Маргаев Сергей</a>
-           </span>
-       </div>
-       <span class="container_footer_title_rsschool"><a href="#" >Sersch Grup</a> 
-       </span>
-       <span class="container_footer_title_links">
-            <ul class="container_footer_title_links1">
-                <li class="social_li"><a href="#">
-                    <svg class="instagram">
-                        <use xlink:href="#instagram"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="social_li"><a href="#">
-                    <svg class="fb">
-                        <use xlink:href="#fb"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="social_li"><a href="#">
-                    <svg class="tw">
-                        <use xlink:href="#tw"></use>
-                    </svg>
-                    </a>
-                </li>
-                <li class="social_li"><a href="#">
-                    <svg class="pinterest">
-                        <use xlink:href="#pinterest"></use>
-                    </svg>
-                    </a>
-                </li>
-            </ul>
-        </span>
-    </div>
-</footer>
+    <footer class="container">
+        <div class="container_footer">
+            <div class="container_footer_title_github">
+                <span class="container_footer_title_github1">&copy; 2022  
+                    <a href="https://github.com/sersch1sersch" title="github Маргаев Сергей" target="_blank">Маргаев Сергей</a>
+                </span>
+            </div>
+            <span class="container_footer_title_rsschool"><a href="#" title ="empty link">Sersch Grup</a> 
+            </span>
+            <span class="container_footer_title_links">
+                <ul class="container_footer_title_links1">
+                    <li class="social_li">
+                        <a href="#" title ="empty link">
+                            <svg class="instagram">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_li">
+                        <a href="#" title ="empty link">
+                            <svg class="fb">
+                                <use xlink:href="#fb"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_li">
+                        <a href="#" title ="empty link">
+                            <svg class="tw">
+                                <use xlink:href="#tw"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social_li">
+                        <a href="#" title ="empty link">
+                            <svg class="pinterest">
+                                <use xlink:href="#pinterest"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </footer>
 <!-- конец верстки footer-->
+<script src="index.js"></script>
 </body>
 </html>
